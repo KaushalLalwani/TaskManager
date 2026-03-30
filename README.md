@@ -96,6 +96,12 @@ npm run lint
 npm run build
 ```
 
+Screenshots/-
+![LOGIN PAGE](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
+~/primetrade{backend]/backend$ sqlite3 test.db "UPDATE users SET is_admin = 1 WHERE email = 'test2@test.com';"
+
 ## Deliverables Included
 - Backend codebase with modular structure
 - Basic frontend UI connected to backend APIs
@@ -103,3 +109,5 @@ npm run build
 - Setup documentation in [backend/README.md](/home/kaushal/primetrade{backend]/backend/README.md) and [frontend/README.md](/home/kaushal/primetrade{backend]/frontend/README.md)
 - Scalability note in [SCALABILITY.md](/home/kaushal/primetrade{backend]/SCALABILITY.md)
 - Deployment notes in [DEPLOYMENT.md](/home/kaushal/primetrade{backend]/DEPLOYMENT.md)
+
+
